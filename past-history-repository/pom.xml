@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+
+  <groupId>offermanagement</groupId>
+  <artifactId>past-history-repository</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0.0</version>
+  <name>past-history-repository</name>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>com.myspace</groupId>
+      <artifactId>customer-model</artifactId>
+      <version>1.0.0.0</version>
+    </dependency>
+  </dependencies>
+
+
+
+  <repositories>
+    <repository>
+      <id>maven-DM</id>
+      <name>maven-DM</name>
+      <url>http://nexus-nexus.apps.cluster-florida-ee6b.florida-ee6b.example.opentlc.com/repository/maven-DM/</url>
+    </repository>
+
+
+  </repositories>
+  <build>
+    <finalName>past-history-repository</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <!-- When built in OpenShift the 'openshift' profile will be used when invoking mvn. -->
+      <!-- Use this profile for any OpenShift specific customization your app will need. -->
+      <!-- By default that is to put the resulting archive into the 'deployments' folder. -->
+      <!-- http://maven.apache.org/guides/mini/guide-building-for-different-environments.html -->
+      <id>openshift</id>
+      <build>
+        <finalName>past-history-repository</finalName>
+        <plugins>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

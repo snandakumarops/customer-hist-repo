@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <groupId>com.redhat</groupId>
+    <artifactId>customer-history-repo</artifactId>
+    <version>1.0.0.0</version>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>customer-model</module>
+        <module>customer-repository</module>
+        <module>customer-repository-jdg</module>
+        <module>past-history-repository</module>
+        <module>past-history-repository-jdg</module>
+        <module>cache-load-service</module>
+    </modules>
+</project>
