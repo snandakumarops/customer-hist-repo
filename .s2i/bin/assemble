@@ -179,9 +179,8 @@ elif [ -f "${S2I_SOURCE_DIR}/Dockerfile" ]; then
   else
     check_error "No single directory found in ${S2I_SOURCE_DIR} but:\n $(ls -l ${S2I_SOURCE_DIR})" 1
   fi
-  echo "Copying binaries from ${binary_dir} to ${DEPLOYMENTS_DIR} ..."
-  copy_dir ${binary_dir} ${DEPLOYMENTS_DIR}
-  check_error "copying ${binary_dir} to ${DEPLOYMENTS_DIR}" $?
+
+
 else
   echo "S2I source build with plain binaries detected"
   if [ -d "${S2I_SOURCE_DIR}/deployments" ]; then
@@ -191,9 +190,7 @@ else
   fi
   binary_dir="${ARTIFACT_DIR:-${default_binary_dir}}"
   # Assuming that the source already contains compiled artefacts
-  echo "Copying binaries from ${binary_dir} to ${DEPLOYMENTS_DIR} ..."
-  copy_dir ${binary_dir} ${DEPLOYMENTS_DIR}
-  check_error "copying ${binary_dir} to ${DEPLOYMENTS_DIR}" $?
+ 
 fi
 
 # Remove java tmp perf data dir owned by 185
