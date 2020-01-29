@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-load-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cache-load-service/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cache-load-service/target/" />
     <ignored path="$PROJECT_DIR$/past-history-repository/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="118" column="80" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
+            <state relative-caret-position="1699">
+              <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -156,74 +153,6 @@
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="fabric8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="offermanagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-repository-jdg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="past-history-repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="past-history-repository-jdg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +293,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -459,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="118" column="80" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
+        <state relative-caret-position="1699">
+          <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
         </state>
       </provider>
     </entry>
