@@ -137,7 +137,21 @@ function build_maven() {
   mvn ${mvn_cmd}
   check_error "Maven build" $?
 
+  # ==============
+  # Copy artifacts
+  echo "Copying Maven artifacts from ${build_dir} to ${app_dir} ..."
+  copy_artifacts ${build_dir} ${app_dir}
+  check_error "copying artifacts from ${build_dir} to ${app_dir}" $?
 
+  # ======================
+  # ======================
+  # Remove repo if desired
+  if [ "x${MAVEN_CLEAR_REPO}" != "x" ]; then
+    rm -rf "${MAVEN_REPO_LOCAL}"
+    check_error "Cannot remove local Maven repository ${MAVEN_REPO_LOCAL}" $?
+  fi
+
+  cd ${old_dir}
 }
 
 # =========================================================================
@@ -165,8 +179,9 @@ elif [ -f "${S2I_SOURCE_DIR}/Dockerfile" ]; then
   else
     check_error "No single directory found in ${S2I_SOURCE_DIR} but:\n $(ls -l ${S2I_SOURCE_DIR})" 1
   fi
-
-
+  echo "Copying binaries from ${binary_dir} to ${DEPLOYMENTS_DIR} ..."
+  copy_dir ${binary_dir} ${DEPLOYMENTS_DIR}
+  check_error "copying ${binary_dir} to ${DEPLOYMENTS_DIR}" $?
 else
   echo "S2I source build with plain binaries detected"
   if [ -d "${S2I_SOURCE_DIR}/deployments" ]; then
@@ -177,7 +192,8 @@ else
   binary_dir="${ARTIFACT_DIR:-${default_binary_dir}}"
   # Assuming that the source already contains compiled artefacts
   echo "Copying binaries from ${binary_dir} to ${DEPLOYMENTS_DIR} ..."
-
+  copy_dir ${binary_dir} ${DEPLOYMENTS_DIR}
+  check_error "copying ${binary_dir} to ${DEPLOYMENTS_DIR}" $?
 fi
 
 # Remove java tmp perf data dir owned by 185
