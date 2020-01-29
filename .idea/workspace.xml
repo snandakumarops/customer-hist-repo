@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.s2i/bin/assemble" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/.s2i/bin/assemble" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.s2i/bin/run" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/.s2i/bin/run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/configuration/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-load-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cache-load-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cache-load-service/target/" />
     <ignored path="$PROJECT_DIR$/past-history-repository/target/" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="161" column="13" lean-forward="true" selection-start-line="142" selection-start-column="2" selection-end-line="161" selection-end-column="13" />
+            <state relative-caret-position="121">
+              <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -40,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer-model/configuration/settings.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -123,8 +121,8 @@
         <option value="$PROJECT_DIR$/customer-repository-jdg/pom.xml" />
         <option value="$PROJECT_DIR$/past-history-repository/pom.xml" />
         <option value="$PROJECT_DIR$/past-history-repository-jdg/pom.xml" />
-        <option value="$PROJECT_DIR$/cache-load-service/pom.xml" />
         <option value="$PROJECT_DIR$/customer-model/pom.xml" />
+        <option value="$PROJECT_DIR$/cache-load-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -148,6 +146,11 @@
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +186,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/customer-model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,6 +316,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,20 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/past-history-repository-jdg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="161" column="13" lean-forward="true" selection-start-line="142" selection-start-column="2" selection-end-line="161" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customer-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -399,6 +394,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customer-model/configuration/settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/past-history-repository-jdg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
