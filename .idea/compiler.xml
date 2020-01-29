@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cache-load-service" />
+        <module name="customer-model" />
+        <module name="customer-repository" />
+        <module name="customer-repository-jdg" />
+        <module name="past-history-repository" />
+        <module name="past-history-repository-jdg" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cache-load-service" target="8" />
+      <module name="customer-history-repo" target="1.5" />
+      <module name="customer-model" target="1.5" />
+      <module name="customer-repository" target="1.5" />
+      <module name="customer-repository-jdg" target="8" />
+      <module name="past-history-repository" target="1.5" />
+      <module name="past-history-repository-jdg" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

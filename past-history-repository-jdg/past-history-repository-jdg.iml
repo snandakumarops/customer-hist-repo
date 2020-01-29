@@ -9,8 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.myspace:customer-model:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: offermanagement:past-history-repository:1.0.0.0" level="project" />
+    <orderEntry type="module" module-name="customer-model" />
+    <orderEntry type="module" module-name="past-history-repository" />
     <orderEntry type="library" name="Maven: org.infinispan:infinispan-client-hotrod:8.5.3.Final-redhat-00002" level="project" />
     <orderEntry type="library" name="Maven: org.infinispan:infinispan-commons:8.5.3.Final-redhat-00002" level="project" />
     <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.4.0.redhat-1" level="project" />

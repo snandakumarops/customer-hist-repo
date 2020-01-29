@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cache-load-service/cache-load-service.iml" filepath="$PROJECT_DIR$/cache-load-service/cache-load-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-history-repo.iml" filepath="$PROJECT_DIR$/customer-history-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-model/customer-model.iml" filepath="$PROJECT_DIR$/customer-model/customer-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-repository/customer-repository.iml" filepath="$PROJECT_DIR$/customer-repository/customer-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-repository-jdg/customer-repository-jdg.iml" filepath="$PROJECT_DIR$/customer-repository-jdg/customer-repository-jdg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/past-history-repository/past-history-repository.iml" filepath="$PROJECT_DIR$/past-history-repository/past-history-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/past-history-repository-jdg/past-history-repository-jdg.iml" filepath="$PROJECT_DIR$/past-history-repository-jdg/past-history-repository-jdg.iml" />
+    </modules>
+  </component>
+</project>

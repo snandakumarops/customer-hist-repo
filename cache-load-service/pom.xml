@@ -140,16 +140,5 @@
       </plugin>
     </plugins>
   </build>
-  <profiles>
-    <profile>
-      <id>openshift</id>
-      <repositories>
-        <repository>
-          <id>maven-releases</id>
-          <name>maven-releases</name>
-          <url>${env.NEXUSREPO}/repository/maven-releases/</url>
-        </repository>
-      </repositories>
-    </profile>
-  </profiles>
+
 </project>

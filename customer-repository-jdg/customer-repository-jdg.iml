@@ -10,8 +10,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.myspace:customer-model:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: offermanagment:customer-repository:1.0.0.0" level="project" />
+    <orderEntry type="module" module-name="customer-model" />
+    <orderEntry type="module" module-name="customer-repository" />
     <orderEntry type="library" name="Maven: org.infinispan:infinispan-client-hotrod:8.5.3.Final-redhat-00002" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling-osgi:1.4.10.Final-redhat-3" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6.0.redhat-9" level="project" />
