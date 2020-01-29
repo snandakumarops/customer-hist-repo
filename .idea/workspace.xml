@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myspace/offermanagement/customerModel/CustomerModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myspace/offermanagement/customerModel/PastHistoryModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myspace/offermanagement/customerModel/CustomerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myspace/offermanagement/customerModel/PastHistoryModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customer-model.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cache-load-service/target/" />
     <ignored path="$PROJECT_DIR$/past-history-repository/target/" />
@@ -31,11 +22,7 @@
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="run" pinned="false" current-in-tab="false">
@@ -369,11 +356,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
