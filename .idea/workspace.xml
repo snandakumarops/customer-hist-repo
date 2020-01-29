@@ -46,8 +46,8 @@
       <file leaf-file-name="assemble" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.s2i/bin/assemble">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="192" column="1" selection-start-line="192" selection-start-column="1" selection-end-line="192" selection-end-column="1" />
+            <state relative-caret-position="213">
+              <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -61,9 +61,9 @@
       <find>nexus-releases</find>
       <find>cp</find>
       <find>Copying</find>
-      <find>copy_artifacts</find>
       <find>copy</find>
       <find>copy_dir</find>
+      <find>copy_artifacts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -379,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.s2i/bin/assemble">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="192" column="1" selection-start-line="192" selection-start-column="1" selection-end-line="192" selection-end-column="1" />
+        <state relative-caret-position="213">
+          <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
         </state>
       </provider>
     </entry>
