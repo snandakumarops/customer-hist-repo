@@ -21,15 +21,7 @@
 
 
 
-  <repositories>
-    <repository>
-      <id>maven-DM</id>
-      <name>maven-DM</name>
-      <url>http://nexus-nexus.apps.cluster-florida-ee6b.florida-ee6b.example.opentlc.com/repository/maven-DM/</url>
-    </repository>
 
-
-  </repositories>
   <build>
     <finalName>past-history-repository</finalName>
     <plugins>

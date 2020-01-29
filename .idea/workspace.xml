@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cache-load-service/cache-load-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-load-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cache-load-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-model/customer-model.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-repository-jdg/customer-repository-jdg.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-repository/customer-repository.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/past-history-repository-jdg/past-history-repository-jdg.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/past-history-repository/past-history-repository.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-model/target/customer-model.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/target/customer-model.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-repository/target/customer-repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer-repository/target/customer-repository.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-repository/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-repository/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/past-history-repository-jdg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/past-history-repository-jdg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/past-history-repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/past-history-repository/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cache-load-service/target/" />
     <ignored path="$PROJECT_DIR$/past-history-repository/target/" />
@@ -29,13 +29,54 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="2160">
               <caret line="144" selection-start-line="144" selection-end-line="144" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-repository/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-107" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-repository-jdg/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-962" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/past-history-repository/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/past-history-repository-jdg/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -69,6 +110,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cache-load-service/pom.xml" />
+        <option value="$PROJECT_DIR$/customer-model/pom.xml" />
+        <option value="$PROJECT_DIR$/past-history-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/past-history-repository-jdg/pom.xml" />
       </list>
     </option>
   </component>
@@ -96,37 +140,22 @@
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="customer-repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="customer-repository-jdg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="past-history-repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="offermanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="past-history-repository-jdg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,17 +332,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-repository-jdg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-962" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/past-history-repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/past-history-repository-jdg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
         </state>
       </provider>
     </entry>
