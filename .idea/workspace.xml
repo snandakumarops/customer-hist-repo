@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1f1695-7fcd-42c0-9335-826d929abb37" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache-load-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cache-load-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cache-load-service/target/" />
@@ -23,8 +24,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+            <state relative-caret-position="194">
+              <caret line="118" column="80" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache-load-service/src/main/fabric8/deployment.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -151,6 +161,44 @@
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
               <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="fabric8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customer-hist-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="cache-load-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="offermanagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customer-history-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -402,10 +450,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cache-load-service/src/main/fabric8/deployment.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cache-load-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        <state relative-caret-position="194">
+          <caret line="118" column="80" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
         </state>
       </provider>
     </entry>
